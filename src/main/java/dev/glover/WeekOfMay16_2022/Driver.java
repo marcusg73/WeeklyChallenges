@@ -10,19 +10,22 @@ public class Driver
     {
         Driver d = new Driver();
 
-        // 123 + 456 = 579
-        //System.out.println(d.SumLists(d.convertToReversedLinkedList(123), d.convertToReversedLinkedList(456), true));
-        LinkedList<Integer> n1 = new LinkedList<>(), n2 = new LinkedList<>();
-        // 56
-        n1.add(5);
-        n1.add(6);
+//        // 123 + 456 = 579
+//        System.out.println(d.SumLists(d.convertToReversedLinkedList(123), d.convertToReversedLinkedList(456), true));
+//        LinkedList<Integer> n1 = new LinkedList<>(), n2 = new LinkedList<>();
+//        // 56
+//        n1.add(5);
+//        n1.add(6);
+//
+//        // 42
+//        n2.add(4);
+//        n2.add(2);
+//
+//        // 56 + 42 = 98
+//        System.out.println(d.SumLists(n1, n2, false));
 
-        // 42
-        n2.add(4);
-        n2.add(2);
-
-        // 56 + 42 = 98
-        System.out.println(d.SumLists(n1, n2, false));
+        IntegerStack stack = new IntegerStack(5, 6, 2, 0, -4, 15);
+        System.out.println(stack.min());
 
     }
 
