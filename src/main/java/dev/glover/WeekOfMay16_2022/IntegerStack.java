@@ -3,6 +3,11 @@ package dev.glover.WeekOfMay16_2022;
 import java.util.EmptyStackException;
 import java.util.Stack;
 
+/**
+ * Stack Min: How would you design a stack which, in addition to push and pop,
+ * has a function min which returns the minimum element?
+ * Push, pop and min should all operate in 0(1) time.
+ */
 public class IntegerStack
 {
     // Use a Stack as a structure for the data
@@ -10,7 +15,7 @@ public class IntegerStack
     // Reference to the minimum element (in this case an Integer)
     private Integer min = 0;
 
-    // Default contructor
+    // Default constructor
     public IntegerStack()
     {
         stack = new Stack<>();
